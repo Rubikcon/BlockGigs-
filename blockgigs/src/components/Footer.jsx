@@ -29,7 +29,7 @@ const Footer = () => {
             </p>
             </div>
             <div>
-            <p className="lg:mr-8 md:mr-8 mb-4 text-justify">Community
+            <p className="lg:mr-8 md:mr-8 mb-4 mx-auto text-justify">Community
               <br />Events
               <br />Blog
               <br />Podcast
@@ -37,7 +37,7 @@ const Footer = () => {
             </p>
             </div>
             <div>
-            <p className="mb-4 text-justify">Socials
+            <p className="mb-4 mx-auto text-justify">Socials
               <br />Discord
               <br />Instagram
               <br />Twitter

@@ -18,16 +18,17 @@ const Hero = () => {
                     Find top African tech talents, hire anonymously, and pay securely in crypto.
                 </p>
                 <div>
+                    <div className="mt-6">
+                        <Link to='/join-waitlist-as-a-client'> <button className="bg-[#2F66F6] w-[15%] mt-1  text-white mb-1 rounded-lg p-4 mr-2">
+                            Join Waitlist as a client
+                        </button></Link>
+                        <Link to='/join-waitlist-as-a-talent'> <button className="bg-[#D7D9E4] w-[15%] mt-1  text-[#0A0F29] mb-1 rounded-lg p-4 ">
+                            Join Waitlist as a talent
+                        </button></Link>
+                    </div>
+                </div>
+            </div>
 
-               <Link to='/join-waitlist-as-a-client'> <button className="bg-[#2F66F6] w-[15%] mt-1  text-white mb-1 rounded-lg p-4 mr-2">
-                    Join Waitlist as a client
-                </button></Link>
-               <Link to='/join-waitlist-as-a-talent'> <button className="bg-[#D7D9E4] w-[15%] mt-1  text-[#0A0F29] mb-1 rounded-lg p-4 ">
-                    Join Waitlist as a talent
-                </button></Link>
-            </div>
-            </div>
-            
         </main>
     );
 };
