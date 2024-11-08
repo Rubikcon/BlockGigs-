@@ -9,7 +9,7 @@ const LoadingSpinner = () => (
       ariaLabel="vortex-loading"
       wrapperStyle={{}}
       wrapperClass="vortex-wrapper"
-      colors={['#2A3E84', '#080B2A', '#15BFFD', '#ffffff', '#080B2A', '#2A3E84']}
+      colors={['#2F66F6', '#0A0F29', '#15BFFD', '#ffffff', '#0A0F29', '#2F66F6']}
     />
   </div>
 );

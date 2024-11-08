@@ -27,16 +27,16 @@ const Footer = () => {
               <br />Partnership
               <br />Bussiness Relation
             </p>
-            </div>
-            <div>
+          </div>
+          <div>
             <p className="lg:mr-8 md:mr-8 mb-4 mx-auto text-justify">Community
               <br />Events
               <br />Blog
               <br />Podcast
               <br />Invite a friend
             </p>
-            </div>
-            <div>
+          </div>
+          <div>
             <p className="mb-4 mx-auto text-justify">Socials
               <br />Discord
               <br />Instagram
@@ -44,10 +44,17 @@ const Footer = () => {
               <br />Facebook
             </p>
           </div>
-          
+
         </div>
-        <hr className="my-4"/>
-        <p className="mb-4">&copy; 2024 Blockgigs. All rights reserved</p>
+        <hr className="my-4" />
+        <div className="w-[100%] mx-auto flex flex-col  justify-between  lg:flex-row md:flex-row ">
+          <div>
+          <p className="mb-4">&copy; 2024 Blockgigs. All rights reserved</p>
+          </div>
+          <div>
+            <p className="flex gap-8">Privacy & Policy <span>Terms & Condition</span></p>
+          </div>
+        </div>
       </div>
     </footer>
   );
