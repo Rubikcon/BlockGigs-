@@ -12,9 +12,7 @@ const Home = () => {
       <Welcome/>
       <Be/>
       <About/>
-      <Who/>
-      
-          
+      <Who/>    
     </main>
   );
 };
