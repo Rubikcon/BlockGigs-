@@ -15,9 +15,25 @@ const Footer = () => {
             <img src={logo} alt="" className="w-[295px] h-[60px]  mb-4" />
             <p className="text-justify my-4">Find top African tech talents, hire anonymously, and pay securely in crypto.</p>
             <div className="flex items-center mb-4">
-              <FaXTwitter className="mr-2 text-xl" />
-              <AiOutlineDiscord className="mr-2 text-xl" />
-              <MdMailOutline className="text-xl" />
+            <a
+                href="https://x.com/rubiconconsult/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#2F66F6]"
+              > <FaXTwitter className="mr-2 text-xl" /></a>
+              <a
+                href="https://x.com/rubiconconsult/status/1763208220963742126?s=46&t=VvekonL19LKuyej2Xh1ZJw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#2F66F6]"
+              >  <AiOutlineDiscord className="mr-2 text-xl" /></a>
+              <a
+                href="mailto:info@rubiconconsulting@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#2F66F6]"
+              >  <MdMailOutline className="text-xl" />
+              </a>
             </div>
           </div>
           <div className="flex items-center justify-between flex-col lg:flex-row md:flex-row">
@@ -49,7 +65,7 @@ const Footer = () => {
         <hr className="my-4" />
         <div className="w-[100%] mx-auto flex flex-col  justify-between  lg:flex-row md:flex-row ">
           <div>
-          <p className="mb-4">&copy; 2024 Blockgigs. All rights reserved</p>
+            <p className="mb-4">&copy; 2024 Blockgigs. All rights reserved</p>
           </div>
           <div>
             <p className="flex gap-8">Privacy & Policy <span>Terms & Condition</span></p>

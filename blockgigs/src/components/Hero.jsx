@@ -17,12 +17,13 @@ const Hero = () => {
                 <p className="text-white lg:text-[20px] md:text-[20px] text-[16px] text-center font-serif ">
                     Find top African tech talents, hire anonymously, and pay securely in crypto.
                 </p>
-                <div>
-                    <div className="mt-6">
-                        <Link to='/join-waitlist-as-a-client'> <button className="bg-[#2F66F6] w-[15%] mt-1  text-white mb-1 rounded-lg p-4 mr-2">
-                            Join Waitlist as a client
-                        </button></Link>
-                        <Link to='/join-waitlist-as-a-talent'> <button className="bg-[#D7D9E4] w-[15%] mt-1  text-[#0A0F29] mb-1 rounded-lg p-4 ">
+                <div className="mt-6 flex lg:flex-row md:flex-row flex-col items-center w-[100%] mx-10 lg:px-96 md:px-96 ">
+                    <div className='lg:w-[40%] md:w-[40%] w-[100%] '> <Link to='/join-waitlist-as-a-client'> <button className="bg-[#2F66F6]  mt-1  text-white mb-1 rounded-lg p-4 mr-2">
+                        Join Waitlist as a client
+                    </button></Link>
+                    </div>
+                    <div className="lg:w-[40%] md:w-[40%] w-[100%] ">
+                        <Link to='/join-waitlist-as-a-talent'> <button className="bg-[#D7D9E4]  mt-1  text-[#0A0F29] mb-1 rounded-lg p-4 ">
                             Join Waitlist as a talent
                         </button></Link>
                     </div>

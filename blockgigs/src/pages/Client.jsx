@@ -5,7 +5,7 @@ const Client = () => {
 
 
     return (
-        <main className="bg-white w-screen ">
+        <main className="bg-white w-screen">
             <section>
                 <h1 className="text-[#0A0F29] lg:text-[24px] md:text-[24px] text-[20px] font-serif font-bold  text-center">
                     Join waitlist as a Client
@@ -14,7 +14,7 @@ const Client = () => {
                     className="  bg-white lg:w-[50%] md:w-[50%] w-[80%] mx-96 text-center p-8 lg:px-0 md:px-0 mt-4"
 
                 >
-                     <div className="lg:mx-24 md:mx-24 mx-auto">
+                    <div className="lg:mx-24 md:mx-24 mx-2">
                     <label className="block mt-4 mb-2 text-[14px] font-bold text-[#0A0F29]  text-left">
                         Company Name
                     </label>
