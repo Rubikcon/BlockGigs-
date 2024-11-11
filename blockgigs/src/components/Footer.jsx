@@ -1,7 +1,8 @@
-import logo from "../assets/logo.svg"
+import whitelogo from "../assets/whitelogo.svg"
 import { AiOutlineDiscord } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdMailOutline } from "react-icons/md";
+
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
 
         <div className="flex items-center justify-between flex-col lg:flex-row md:flex-row text-center lg:text-right md:text-right">
           <div className="lg:w-[25%] md:w-[25%] w-[100%]  lg:items-start lg:text-left md:items-start md:text-start text-center items-center">
-            <img src={logo} alt="" className="w-[295px] h-[60px]  mb-4" />
+            <img src={whitelogo} alt="" className="w-[295px] h-[60px]  mb-4" />
             <p className="text-justify my-4">Find top African tech talents, hire anonymously, and pay securely in crypto.</p>
             <div className="flex items-center mb-4">
             <a
