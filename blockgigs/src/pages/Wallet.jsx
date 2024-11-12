@@ -1,13 +1,16 @@
 // pages/Wallet.js
 import React from "react";
-const eth = "../config/detect"
+// const eth = "../config/detect"
+import MetaMaskConnector from "../components/metamask/MetaMaskConnector"
+
 
 const Wallet = () => {
-  return <div>
-    <h1>Wallet Page</h1> 
-    <button class="enableEthereumButton">Connect Ethereum</button>
-    <h2>Account: <span class="showAccount"></span></h2>
-   </div>;
+  return (
+    <div>
+      <h1>Wallet Page</h1>
+      <MetaMaskConnector />
+    </div>
+  );
 };
 
 export default Wallet;

@@ -9,3 +9,36 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+
+
+
+
+
+/* Tailwind Utility Classes */
+.container {
+  padding: 1.5rem;
+  background-color: #242D44;
+  min-height: 100vh;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #2c3e50;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.card-header {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.card-body {
+  color: #bdc3c7;
+}

@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
     "blockgigs": "file:",
     "hamburger-react": "^2.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.4.1",
+    "react-icon": "^1.0.0",
     "react-icons": "^5.3.0",
     "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.27.0",
