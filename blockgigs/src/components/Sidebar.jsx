@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/logo1.svg";
-import { FaHome, FaBriefcase, FaWallet, FaEnvelope, FaTasks, FaCog, FaSignOutAlt } from "react-icons/fa";
+import { FaCog } from "react-icons/fa";
 import { IoCubeSharp } from "react-icons/io5";
 import { RxDashboard } from "react-icons/rx";
 import { FaFolderClosed } from "react-icons/fa6";
@@ -19,7 +19,7 @@ const Sidebar = () => {
   return (
     <div className={`bg-[#1C2335] text-white h-screen ${isOpen ? "w-64" : "w-20"} transition-width duration-300 fixed top-0 left-0 flex flex-col`}>
       <div className="flex items-center justify-center p-4 border-b border-gray-700">
-        <img src={logo} alt="Logo" className="w-[500px] h-[60px]" />
+        <img src={logo} alt="Logo" className="w-[500px] h-[80px]" />
       </div>
 
       <div className="flex items-center justify-between p-4 border-b border-gray-700">

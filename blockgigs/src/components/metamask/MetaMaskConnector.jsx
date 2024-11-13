@@ -1,4 +1,3 @@
-// components/MetaMaskConnector.js
 import React, { useEffect, useState } from "react";
 import detectEthereumProvider from "@metamask/detect-provider";
 
@@ -7,6 +6,7 @@ const MetaMaskConnector = () => {
     const [isMetaMaskAvailable, setIsMetaMaskAvailable] = useState(false);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [connecting, setConnecting] = useState(false); // For showing loading state on button
 
     // Initialize MetaMask and check if it's available
     useEffect(() => {
@@ -59,6 +59,7 @@ const MetaMaskConnector = () => {
 
     // Connect to the MetaMask wallet
     const connectWallet = async () => {
+        setConnecting(true); // Set loading state when connecting
         try {
             const accounts = await window.ethereum.request({
                 method: "eth_requestAccounts",
@@ -71,6 +72,8 @@ const MetaMaskConnector = () => {
                 console.error("Failed to connect wallet", err);
                 setError("Failed to connect wallet.");
             }
+        } finally {
+            setConnecting(false); // Reset the loading state once finished
         }
     };
 
@@ -91,10 +94,18 @@ const MetaMaskConnector = () => {
                     {account ? (
                         <div>
                             <h2>Connected Account: {account}</h2>
+                            {/* Optionally add a disconnect button */}
+                            <button onClick={() => setAccount(null)} className="disconnectButton">
+                                Disconnect
+                            </button>
                         </div>
                     ) : (
-                        <button onClick={connectWallet} className="enableEthereumButton">
-                            Connect Ethereum
+                        <button
+                            onClick={connectWallet}
+                            className="connectButton"
+                            disabled={connecting} // Disable the button while connecting
+                        >
+                            {connecting ? "Connecting..." : "Connect Ethereum"}
                         </button>
                     )}
                 </>
