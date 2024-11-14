@@ -11,8 +11,6 @@ import PageLoader from "../components/Loader/PageLoader";
 
 const Home = lazy(() => import("../pages/Waitlist"));
 const HomeLayout = lazy(() => import('../layout/HomeLayout'));
-const Client = lazy(() => import('../pages/Client'));
-const Talent = lazy(() => import('../pages/Talent'));
 
 
 const router = createBrowserRouter(createRoutesFromElements(
@@ -20,8 +18,7 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route>
     <Route path="/" element={<HomeLayout />} >
       <Route index element={<Home />} />
-      <Route path='/join-waitlist-as-a-client' element={<Client />} />
-      <Route path='/join-waitlist-as-a-talent' element={<Talent />} />
+      
     </Route>
 
   </Route>
