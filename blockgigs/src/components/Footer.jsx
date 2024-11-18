@@ -38,15 +38,15 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex items-center justify-between flex-col lg:flex-row md:flex-row">
-            <p className="lg:mr-8 md:mr-8 mb-4 text-justify">About
+            <p className=" mb-4 text-justify p-2">About
               <br />How it works
               <br />Featured
               <br />Partnership
-              <br />Bussiness Relation
+              <br />Business Relation
             </p>
           </div>
           <div>
-            <p className="lg:mr-8 md:mr-8 mb-4 mx-auto text-justify">Community
+            <p className=" mb-4 mx-auto text-justify p-2">Community
               <br />Events
               <br />Blog
               <br />Podcast
@@ -54,7 +54,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <p className="mb-4 mx-auto text-justify">Socials
+            <p className="mb-4 mx-auto text-justify p-2">Socials
               <br />Discord
               <br />Instagram
               <br />Twitter

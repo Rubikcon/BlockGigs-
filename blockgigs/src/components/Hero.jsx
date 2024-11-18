@@ -9,7 +9,7 @@ const style = {
     left: '50%',
     color: '#0A0F29',
     transform: 'translate(-50%, -50%)',
-    width: 400,
+    width: 350,
     borderRadius: 10,
     boxShadow: 20,
     border: '1px solid #0A0F29',
@@ -42,7 +42,7 @@ const Hero = () => {
                 <p className="text-white lg:text-[20px] md:text-[20px] text-[16px] text-center font-serif ">
                     Find top African tech talents, hire anonymously, and pay securely in crypto.
                 </p>
-                <div className="mt-6 flex lg:flex-row md:flex-row flex-col items-center w-[100%] mx-8 lg:px-96 md:px-96 ">
+                <div className="mt-6 flex lg:flex-row md:flex-row flex-col items-center w-[100%] mx-6 lg:px-96 md:px-96 ">
                     <div className='lg:w-[40%] md:w-[40%] w-[100%] '> <button className="bg-[#2F66F6]  mt-1  text-white mb-1 rounded-lg p-4 mr-2" onClick={handleOpen}>
                         Join Waitlist as a client
                     </button>
