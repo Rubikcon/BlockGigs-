@@ -45,7 +45,7 @@ const Footer = () => {
               <br />Business Relation
             </p>
           </div>
-          <div>
+          <div className="flex items-center justify-between flex-col lg:flex-row md:flex-row">
             <p className=" mb-4 mx-auto text-justify p-2">Community
               <br />Events
               <br />Blog
@@ -53,7 +53,7 @@ const Footer = () => {
               <br />Invite a friend
             </p>
           </div>
-          <div>
+          <div className="flex items-center justify-between flex-col lg:flex-row md:flex-row">
             <p className="mb-4 mx-auto text-justify p-2">Socials
               <br />Discord
               <br />Instagram
