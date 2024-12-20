@@ -32,7 +32,7 @@ const Who = () => {
         <main className="bg-[#ECF3FF] w-screen mt-8">
             <div className="bg-[#ECF3FF] lg:w-[80%] md:w-[80%] w-[100%] mx-auto text-center p-8 lg:px-0 md:px-0   "
             >
-                <h1 className="text-[#2F66F6] lg:text-[38px] md:text-[38px] text-[30px] font-serif font-[700] my-4">
+                <h1 className="text-[#2F66F6] lg:text-[38px] md:text-[34px] text-[20px] font-serif font-[700] my-4">
                     Who Should Join?
 
                 </h1>
@@ -47,7 +47,7 @@ const Who = () => {
                         <p className=" text-center font-normal mt-4 lg:text-[18px] md:text-[18px] text-[16px] flex gap-4">
                             If you’re a developer, designer, or have expertise in the blockchain space, Blockgigs is the place to find your next opportunity.
                         </p>
-                        <button className="bg-[#2F66F6]  mt-1  text-white mb-1 rounded-lg p-4 mr-2" onClick={handleOpenSubmit}>
+                        <button className="bg-[#2F66F6]  mt-2  text-white mb-1 rounded-lg p-4 mr-2" onClick={handleOpenSubmit}>
                             Join Waitlist
                         </button>
                         <Modal
@@ -83,7 +83,7 @@ const Who = () => {
                         <p className=" text-center font-normal mt-4 lg:text-[18px] md:text-[18px] text-[16px] flex gap-4">
                             If you’re looking to hire the best blockchain experts, Blockgigs offers a curated talent pool to meet your needs.
                         </p>
-                        <button className="bg-[#2F66F6]  mt-1  text-white mb-1 rounded-lg p-4 mr-2" onClick={handleOpen}>
+                        <button className="bg-[#2F66F6]  mt-2  text-white mb-1 rounded-lg p-4 mr-2" onClick={handleOpen}>
                             Join Waitlist
                         </button>
                         <Modal
