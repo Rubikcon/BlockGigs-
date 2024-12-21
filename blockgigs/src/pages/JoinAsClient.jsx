@@ -143,7 +143,7 @@ const JoinAsClient = () => {
                         onChange={onChangeHandler}
                     />
                 </div>
-                <div className="flex flex-col mt-4">
+                <div className="flex flex-col mt-4 mb-2">
                     <button className="bg-[#2F66F6] text-white py-2 px-4 rounded-[3px] lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] " > Submit</button>
                 </div>
 
