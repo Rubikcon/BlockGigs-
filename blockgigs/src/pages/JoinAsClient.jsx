@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 
 // https://script.google.com/macros/s/AKfycbxPcwGRTXTQ6bKOT4C0Kl9AaApsnw8iS2SHo2NYXNtApjqZhhgD4iE3Wve_JUQY-pgV/exec
 // headers: {"Content-type": "application/x-www-form-urlencoded"},
@@ -28,13 +28,13 @@ const JoinAsClient = () => {
    const onFormSubmit = (e) => {
      e.preventDefault()
      console.log(client, "client");
-     const url = "https://script.google.com/macros/s/AKfycbxPcwGRTXTQ6bKOT4C0Kl9AaApsnw8iS2SHo2NYXNtApjqZhhgD4iE3Wve_JUQY-pgV/exec"
+    //  const url = "https://script.google.com/macros/s/AKfycbxPcwGRTXTQ6bKOT4C0Kl9AaApsnw8iS2SHo2NYXNtApjqZhhgD4iE3Wve_JUQY-pgV/exec"
     //  fetch(url, {
     //     method: "POST",
     //     headers: {"Content-type": "application/x-www-form-urlencoded"},
     //     body: client
     //  }).then(res=>res.text()).then(data=>console.log("data sent successfully"))
-    axios.post(url, client).then(res=>console.log("succeffuly"))
+    // axios.post(url, client).then(res=>console.log("succesfuly"))
    }
     return (
         <div className="flex flex-col justify-center items-center min-h-[65vh] pt-10">
