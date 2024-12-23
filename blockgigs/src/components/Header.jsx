@@ -42,7 +42,7 @@ const Header = () => {
       </div>
       <div className="w-[100%] lg:hidden md:hidden relative">
         <div className="relative mr-5 flex justify-between">
-        <img src={logo} alt="" className="ml-5 w-[110px] h-[32px] md:w-[160px] md:h-[38px] lg:w-[185px] lg:h-[43px]" />
+        <img src={logo} alt="" className="ml-5 w-[110px] h-[15px] md:w-[160px] md:h-[38px] lg:w-[185px] lg:h-[43px]" />
         <Hamburger toggled={isOpen} toggle={setOpen} color="#2F66F6" direction="right" />
         {isOpen && 
         (<nav className="flex flex-col bg-white p-8 py-12 h-[100vh] w-screen absolute top-20 z-50">
